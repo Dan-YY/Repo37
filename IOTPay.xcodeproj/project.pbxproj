@@ -35,6 +35,13 @@
 			remoteGlobalIDString = FABC0BE426307B9F004C6D9B;
 			remoteInfo = IOTPay;
 		};
+		FAE7484A26308126003AED10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA9E916626307DBE00FE74FF /* DemoA1.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FABC0C2426307BC7004C6D9B;
+			remoteInfo = DemoA1;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +53,7 @@
 		C519B9B5A0A7C64BB21A5783 /* Pods_IOTPay_IOTPayUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IOTPay_IOTPayUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6514C6A1EE2F57238C91AB9 /* Pods_IOTPay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IOTPay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E338D7D3ADD7DC573A3C88B7 /* Pods-IOTPay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOTPay.release.xcconfig"; path = "Target Support Files/Pods-IOTPay/Pods-IOTPay.release.xcconfig"; sourceTree = "<group>"; };
+		FA9E916626307DBE00FE74FF /* DemoA1.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DemoA1.xcodeproj; path = "../../../../../../../../Desktop/IOTPay/Testing/Repo37/IOTPay-iOS/Examples/DemoA1.xcodeproj"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FABC0BE526307B9F004C6D9B /* IOTPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOTPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FABC0BE826307B9F004C6D9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FABC0BEA26307B9F004C6D9B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -111,13 +119,21 @@
 				B7E88096558AD80C085076AF /* Pods-IOTPayTests.debug.xcconfig */,
 				FB12EEBE79F500C073744CBF /* Pods-IOTPayTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		FA9E916526307D9200FE74FF /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				FA9E916626307DBE00FE74FF /* DemoA1.xcodeproj */,
+			);
+			path = Examples;
 			sourceTree = "<group>";
 		};
 		FABC0BDC26307B9F004C6D9B = {
 			isa = PBXGroup;
 			children = (
+				FA9E916526307D9200FE74FF /* Examples */,
 				FABC0BE726307B9F004C6D9B /* IOTPay */,
 				FABC0BFE26307BA0004C6D9B /* IOTPayTests */,
 				FABC0C0926307BA0004C6D9B /* IOTPayUITests */,
@@ -167,6 +183,14 @@
 				FABC0C0C26307BA0004C6D9B /* Info.plist */,
 			);
 			path = IOTPayUITests;
+			sourceTree = "<group>";
+		};
+		FAE7484726308126003AED10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAE7484B26308126003AED10 /* DemoA1.app */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +285,12 @@
 			mainGroup = FABC0BDC26307B9F004C6D9B;
 			productRefGroup = FABC0BE626307B9F004C6D9B /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = FAE7484726308126003AED10 /* Products */;
+					ProjectRef = FA9E916626307DBE00FE74FF /* DemoA1.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				FABC0BE426307B9F004C6D9B /* IOTPay */,
@@ -269,6 +299,16 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		FAE7484B26308126003AED10 /* DemoA1.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = DemoA1.app;
+			remoteRef = FAE7484A26308126003AED10 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		FABC0BE326307B9F004C6D9B /* Resources */ = {
