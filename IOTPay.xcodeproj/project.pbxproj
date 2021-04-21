@@ -18,6 +18,13 @@
 		FABC0BF526307B9F004C6D9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FABC0BF326307B9F004C6D9B /* LaunchScreen.storyboard */; };
 		FABC0C0026307BA0004C6D9B /* IOTPayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABC0BFF26307BA0004C6D9B /* IOTPayTests.swift */; };
 		FABC0C0B26307BA0004C6D9B /* IOTPayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABC0C0A26307BA0004C6D9B /* IOTPayUITests.swift */; };
+		FAE748692630833E003AED10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABC0BEC26307B9F004C6D9B /* ViewController.swift */; };
+		FAE7486A2630833E003AED10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABC0BE826307B9F004C6D9B /* AppDelegate.swift */; };
+		FAE7486B2630833E003AED10 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABC0BEA26307B9F004C6D9B /* SceneDelegate.swift */; };
+		FAE7486D2630833E003AED10 /* Pods_IOTPay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6514C6A1EE2F57238C91AB9 /* Pods_IOTPay.framework */; };
+		FAE7486F2630833E003AED10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FABC0BF326307B9F004C6D9B /* LaunchScreen.storyboard */; };
+		FAE748702630833E003AED10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FABC0BF126307B9F004C6D9B /* Assets.xcassets */; };
+		FAE748712630833E003AED10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FABC0BEE26307B9F004C6D9B /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +75,8 @@
 		FABC0C0626307BA0004C6D9B /* IOTPayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOTPayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FABC0C0A26307BA0004C6D9B /* IOTPayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOTPayUITests.swift; sourceTree = "<group>"; };
 		FABC0C0C26307BA0004C6D9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAE748752630833E003AED10 /* DemoA111.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoA111.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE748772630833F003AED10 /* IOTPay copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "IOTPay copy-Info.plist"; path = "/Users/macbook/Desktop/IOTPay/Testing/Repo37/IOTPay-iOS/IOTPay copy-Info.plist"; sourceTree = "<absolute>"; };
 		FB12EEBE79F500C073744CBF /* Pods-IOTPayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOTPayTests.release.xcconfig"; path = "Target Support Files/Pods-IOTPayTests/Pods-IOTPayTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -93,6 +102,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				61EA4278A423F31703FBB4AE /* Pods_IOTPay_IOTPayUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE7486C2630833E003AED10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE7486D2630833E003AED10 /* Pods_IOTPay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +157,7 @@
 				FABC0BE626307B9F004C6D9B /* Products */,
 				8A166E527741D6FB795D64E6 /* Pods */,
 				6C6F322C2C6F7FB24AE00A2C /* Frameworks */,
+				FAE748772630833F003AED10 /* IOTPay copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -149,6 +167,7 @@
 				FABC0BE526307B9F004C6D9B /* IOTPay.app */,
 				FABC0BFB26307BA0004C6D9B /* IOTPayTests.xctest */,
 				FABC0C0626307BA0004C6D9B /* IOTPayUITests.xctest */,
+				FAE748752630833E003AED10 /* DemoA111.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -252,6 +271,24 @@
 			productReference = FABC0C0626307BA0004C6D9B /* IOTPayUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		FAE748662630833E003AED10 /* DemoA111 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAE748722630833E003AED10 /* Build configuration list for PBXNativeTarget "DemoA111" */;
+			buildPhases = (
+				FAE748672630833E003AED10 /* [CP] Check Pods Manifest.lock */,
+				FAE748682630833E003AED10 /* Sources */,
+				FAE7486C2630833E003AED10 /* Frameworks */,
+				FAE7486E2630833E003AED10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoA111;
+			productName = IOTPay;
+			productReference = FAE748752630833E003AED10 /* DemoA111.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -296,6 +333,7 @@
 				FABC0BE426307B9F004C6D9B /* IOTPay */,
 				FABC0BFA26307BA0004C6D9B /* IOTPayTests */,
 				FABC0C0526307BA0004C6D9B /* IOTPayUITests */,
+				FAE748662630833E003AED10 /* DemoA111 */,
 			);
 		};
 /* End PBXProject section */
@@ -332,6 +370,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE7486E2630833E003AED10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE7486F2630833E003AED10 /* LaunchScreen.storyboard in Resources */,
+				FAE748702630833E003AED10 /* Assets.xcassets in Resources */,
+				FAE748712630833E003AED10 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +424,28 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-IOTPayTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAE748672630833E003AED10 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IOTPay-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -430,6 +500,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				FABC0C0B26307BA0004C6D9B /* IOTPayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE748682630833E003AED10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE748692630833E003AED10 /* ViewController.swift in Sources */,
+				FAE7486A2630833E003AED10 /* AppDelegate.swift in Sources */,
+				FAE7486B2630833E003AED10 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -712,6 +792,46 @@
 			};
 			name = Release;
 		};
+		FAE748732630833E003AED10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A914FBC69BDE4563B1C6872 /* Pods-IOTPay.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WG5V7B83H4;
+				INFOPLIST_FILE = "IOTPay copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.iotpay.IOTPay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAE748742630833E003AED10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E338D7D3ADD7DC573A3C88B7 /* Pods-IOTPay.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WG5V7B83H4;
+				INFOPLIST_FILE = "IOTPay copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.iotpay.IOTPay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -747,6 +867,15 @@
 			buildConfigurations = (
 				FABC0C1626307BA0004C6D9B /* Debug */,
 				FABC0C1726307BA0004C6D9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAE748722630833E003AED10 /* Build configuration list for PBXNativeTarget "DemoA111" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE748732630833E003AED10 /* Debug */,
+				FAE748742630833E003AED10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

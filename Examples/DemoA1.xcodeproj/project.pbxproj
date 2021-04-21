@@ -13,6 +13,12 @@
 		FABC0C2F26307BC7004C6D9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FABC0C2D26307BC7004C6D9B /* Main.storyboard */; };
 		FABC0C3126307BC8004C6D9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FABC0C3026307BC8004C6D9B /* Assets.xcassets */; };
 		FABC0C3426307BC8004C6D9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FABC0C3226307BC8004C6D9B /* LaunchScreen.storyboard */; };
+		FAE7487E263083C1003AED10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABC0C2B26307BC7004C6D9B /* ViewController.swift */; };
+		FAE7487F263083C1003AED10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABC0C2726307BC7004C6D9B /* AppDelegate.swift */; };
+		FAE74880263083C1003AED10 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABC0C2926307BC7004C6D9B /* SceneDelegate.swift */; };
+		FAE74883263083C1003AED10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FABC0C3226307BC8004C6D9B /* LaunchScreen.storyboard */; };
+		FAE74884263083C1003AED10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FABC0C3026307BC8004C6D9B /* Assets.xcassets */; };
+		FAE74885263083C1003AED10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FABC0C2D26307BC7004C6D9B /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,10 +30,19 @@
 		FABC0C3026307BC8004C6D9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FABC0C3326307BC8004C6D9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FABC0C3526307BC8004C6D9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAE74889263083C1003AED10 /* DemoA1 copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DemoA1 copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE7488A263083C1003AED10 /* DemoA1 copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "DemoA1 copy-Info.plist"; path = "/Users/macbook/Desktop/IOTPay/Testing/Repo37/IOTPay-iOS/Examples/DemoA1 copy-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		FABC0C2126307BC7004C6D9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE74881263083C1003AED10 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,6 +57,7 @@
 			children = (
 				FABC0C2626307BC7004C6D9B /* DemoA1 */,
 				FABC0C2526307BC7004C6D9B /* Products */,
+				FAE7488A263083C1003AED10 /* DemoA1 copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				FABC0C2426307BC7004C6D9B /* DemoA1.app */,
+				FAE74889263083C1003AED10 /* DemoA1 copy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -87,6 +104,23 @@
 			productReference = FABC0C2426307BC7004C6D9B /* DemoA1.app */;
 			productType = "com.apple.product-type.application";
 		};
+		FAE7487C263083C1003AED10 /* DemoA1 copy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAE74886263083C1003AED10 /* Build configuration list for PBXNativeTarget "DemoA1 copy" */;
+			buildPhases = (
+				FAE7487D263083C1003AED10 /* Sources */,
+				FAE74881263083C1003AED10 /* Frameworks */,
+				FAE74882263083C1003AED10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DemoA1 copy";
+			productName = DemoA1;
+			productReference = FAE74889263083C1003AED10 /* DemoA1 copy.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -115,6 +149,7 @@
 			projectRoot = "";
 			targets = (
 				FABC0C2326307BC7004C6D9B /* DemoA1 */,
+				FAE7487C263083C1003AED10 /* DemoA1 copy */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +165,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FAE74882263083C1003AED10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE74883263083C1003AED10 /* LaunchScreen.storyboard in Resources */,
+				FAE74884263083C1003AED10 /* Assets.xcassets in Resources */,
+				FAE74885263083C1003AED10 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -140,6 +185,16 @@
 				FABC0C2C26307BC7004C6D9B /* ViewController.swift in Sources */,
 				FABC0C2826307BC7004C6D9B /* AppDelegate.swift in Sources */,
 				FABC0C2A26307BC7004C6D9B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE7487D263083C1003AED10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE7487E263083C1003AED10 /* ViewController.swift in Sources */,
+				FAE7487F263083C1003AED10 /* AppDelegate.swift in Sources */,
+				FAE74880263083C1003AED10 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +374,44 @@
 			};
 			name = Release;
 		};
+		FAE74887263083C1003AED10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WG5V7B83H4;
+				INFOPLIST_FILE = "DemoA1 copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.iotpay.DemoA1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAE74888263083C1003AED10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WG5V7B83H4;
+				INFOPLIST_FILE = "DemoA1 copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.iotpay.DemoA1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -336,6 +429,15 @@
 			buildConfigurations = (
 				FABC0C3926307BC8004C6D9B /* Debug */,
 				FABC0C3A26307BC8004C6D9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAE74886263083C1003AED10 /* Build configuration list for PBXNativeTarget "DemoA1 copy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE74887263083C1003AED10 /* Debug */,
+				FAE74888263083C1003AED10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

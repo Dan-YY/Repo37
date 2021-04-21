@@ -9,10 +9,15 @@
 			<key>orderHint</key>
 			<integer>4</integer>
 		</dict>
+		<key>IOTPay copy.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
 		<key>IOTPay.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
-			<false/>
+			<true/>
 			<key>orderHint</key>
 			<integer>5</integer>
 		</dict>
