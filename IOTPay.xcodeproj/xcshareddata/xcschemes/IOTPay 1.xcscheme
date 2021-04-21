@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1100"
+   LastUpgradeVersion = "1240"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8DBE1B8B1E82382A4FD4DED84BFC1BBE"
-               BuildableName = "Pods_IOTPay.framework"
-               BlueprintName = "Pods-IOTPay"
-               ReferencedContainer = "container:Pods.xcodeproj">
+               BlueprintIdentifier = "FABC0BE426307B9F004C6D9B"
+               BuildableName = "IOTPay.app"
+               BlueprintName = "IOTPay"
+               ReferencedContainer = "container:IOTPay.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,7 +47,7 @@
             BlueprintIdentifier = "FABC0BE426307B9F004C6D9B"
             BuildableName = "IOTPay.app"
             BlueprintName = "IOTPay"
-            ReferencedContainer = "container:../IOTPay.xcodeproj">
+            ReferencedContainer = "container:IOTPay.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -57,15 +57,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8DBE1B8B1E82382A4FD4DED84BFC1BBE"
-            BuildableName = "Pods_IOTPay.framework"
-            BlueprintName = "Pods-IOTPay"
-            ReferencedContainer = "container:Pods.xcodeproj">
+            BlueprintIdentifier = "FABC0BE426307B9F004C6D9B"
+            BuildableName = "IOTPay.app"
+            BlueprintName = "IOTPay"
+            ReferencedContainer = "container:IOTPay.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

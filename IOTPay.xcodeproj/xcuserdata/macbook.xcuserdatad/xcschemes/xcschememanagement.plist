@@ -4,10 +4,35 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>IOTPay.xcscheme_^#shared#^_</key>
+		<key>IOTPay 1.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>4</integer>
+		</dict>
+		<key>IOTPay.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>FABC0BE426307B9F004C6D9B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FABC0BFA26307BA0004C6D9B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FABC0C0526307BA0004C6D9B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
