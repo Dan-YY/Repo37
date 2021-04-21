@@ -20,6 +20,20 @@
                ReferencedContainer = "container:IOTPay.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "FABC0C2326307BC7004C6D9B"
+               BuildableName = "DemoA1.app"
+               BlueprintName = "DemoA1"
+               ReferencedContainer = "container:Examples/DemoA1.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
