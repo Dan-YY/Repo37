@@ -1,0 +1,6 @@
+framework module Pods_IOTPay {
+  umbrella header "Pods-IOTPay-umbrella.h"
+
+  export *
+  module * { export * }
+}
